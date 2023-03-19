@@ -15,6 +15,28 @@
   --button-iris: #4d5ae5;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
 }
@@ -27,7 +49,14 @@ body {
   background-color: var(--background-color-white);
 }
 
+.box{outline: 2px solid tomato}
+.container{width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;}
 /* ======================================Komponents========================================== */
+
 .descr-title {
   font-size: 16px;
   line-height: 1.5;
@@ -133,7 +162,6 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--white);
   background: var(--web-logo);
   border: none;
@@ -158,7 +186,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--button-iris);
   background: var(--background-color-cloud);
   border: none;
