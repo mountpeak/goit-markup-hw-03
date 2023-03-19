@@ -1,0 +1,204 @@
+:root {
+  --accent-color: #404bbf;
+  --pimary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --background-color-navy: #2e2f42;
+  --logo-text-light: #f4f4fd;
+  --background-color-white: #ffffff;
+  --background-color-cloud: #f4f4fd;
+  --web-logo: #4d5ae5;
+  --paragraf-dark: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --button-iris: #4d5ae5;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: var(--pimary-font);
+  color: var(--primary-text-color);
+  background-color: var(--background-color-white);
+}
+
+/* ======================================Komponents========================================== */
+.descr-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.descr-title-dark {
+  color: var(--paragraf-dark);
+}
+.descr-title-light {
+  color: var(--cloud);
+}
+.adress {
+  font-style: normal;
+}
+
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.phone-contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+/* ======================================Header========================================== */
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-text-color);
+}
+.web-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--web-logo);
+}
+.studio-logo-dark {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.menu-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+/* ======================================Hero========================================== */
+
+.hero {
+  background-color: var(--background-color-navy);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.type-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--white);
+  background: var(--web-logo);
+  border: none;
+  border-radius: 4px;
+  padding: 16px, 32px;
+}
+
+.type-button:hover,
+.type-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* <!-- ==================Portfolio ==================--> */
+
+.nav-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--button-iris);
+  background: var(--background-color-cloud);
+  border: none;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* ======================================Task and goals========================================== */
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+/* ========================Our team===================== */
+
+.section-team {
+  background-color: var(--background-color-cloud);
+}
+.team-list {
+  background-color: var(--background-color-white);
+}
+.name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+/* ======================================footer========================================== */
+
+.page-footer {
+  background-color: var(--background-color-navy);
+}
+.studio-logo-light {
+  color: var(--cloud);
+}
