@@ -15,12 +15,11 @@
   --button-iris: #4d5ae5;
 }
 
-
 h1,
 h2,
 h3,
 h4,
-p{
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -49,12 +48,16 @@ body {
   background-color: var(--background-color-white);
 }
 
-.box{outline: 2px solid tomato}
-.container{width: 1158px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;}
+.box {
+  outline: 2px solid tomato;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* ======================================Komponents========================================== */
 
 .descr-title {
@@ -72,7 +75,7 @@ padding-right: 15px;}
   font-style: normal;
 }
 
-.contact {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -85,16 +88,32 @@ padding-right: 15px;}
   color: var(--accent-color);
 }
 
-.phone-contact {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  color: var(--primary-text-color);
-}
-
 /* ======================================Header========================================== */
 
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.studio-logo-dark {
+  margin-right: 76px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+}
+.phone{margin-left: 40px;}
 .secondary-title {
   font-weight: 700;
   font-size: 36px;
