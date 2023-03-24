@@ -64,8 +64,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.image {
-  display: block;
+.img {
   width: 100%;
   height: auto;
 }
@@ -144,6 +143,7 @@ body {
   text-transform: uppercase;
   color: var(--web-logo);
 }
+
 .studio-logo-dark {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -174,22 +174,24 @@ body {
 
 .hero {
   background-color: var(--background-color-navy);
-  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
 .hero-title {
+  max-width: 496px;
+  height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
-
 .type-button {
   min-width: 169px;
-  height: 56px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -201,6 +203,9 @@ body {
   border: none;
   border-radius: 4px;
 
+  margin: auto;
+
+  display: block;
   padding-left: 32px;
   padding-right: 32px;
   padding-top: 16px;
@@ -308,9 +313,7 @@ body {
 .studio-logo-light {
   color: var(--cloud);
 }
-. .logo-web-footer {
-  margin-right: 0;
-}
+
 /* <!-- ==================Portfolio ==================--> */
 .page-works {
   padding-top: 96px;
@@ -319,7 +322,6 @@ body {
 
 .nav-button {
   min-width: 116px;
-  height: 48px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
